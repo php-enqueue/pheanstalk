@@ -271,7 +271,7 @@ class PheanstalkMessage implements PsrMessage, \JsonSerializable
     /**
      * @param string $json
      *
-     * @return PheanstalkMessage
+     * @return self
      */
     public static function jsonUnserialize($json)
     {
