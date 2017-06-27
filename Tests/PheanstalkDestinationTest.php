@@ -24,8 +24,8 @@ class PheanstalkDestinationTest extends TestCase
 
     public function testShouldAllowGetNameSetInConstructor()
     {
-        $destionation = new PheanstalkDestination('theDestinationName');
+        $destination = new PheanstalkDestination('theDestinationName');
 
-        $this->assertSame('theDestinationName', $destionation->getName());
+        $this->assertSame('theDestinationName', $destination->getName());
     }
 }
